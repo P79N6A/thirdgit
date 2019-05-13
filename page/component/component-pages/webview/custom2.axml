@@ -1,0 +1,3 @@
+<view class="page">
+  <web-view src="alipays://platformapi/startapp?appId=20000131&url=/build/pages/index/index.html%3FenableWK%3DYES%26__webview_options__%3D"></web-view>
+</view>

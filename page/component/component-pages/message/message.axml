@@ -1,0 +1,60 @@
+<view class="page">
+  <form onSubmit="submitForm" report-submit="true" receiverUserId="">
+    <view class="page-description">点击提交，发送示例模板消息</view>
+    <view class="page-section">
+      <view class="form-row">
+        <view class="page-section-title">购买地点</view>
+        <view class="page-section-demo">
+          <input class="input" type="text" disabled="{{true}}" value="{{formData.address}}" name="address"></input>
+        </view>
+      </view>
+      <view class="form-row">
+        <view class="page-section-title">购买时间</view>
+        <view class="page-section-demo">
+          <input class="input" type="text" disabled="{{true}}" value="{{formData.time}}" name="time"></input>
+        </view>
+      </view>
+      <view class="form-row">
+        <view class="page-section-title">物品名称</view>
+        <view class="page-section-demo">
+          <input class="input" type="text" disabled="{{true}}" value="{{formData.name}}" name="name"></input>
+        </view>
+      </view>
+      <view class="form-row">
+        <view class="page-section-title">交易单号</view>
+        <view class="page-section-demo">
+          <input class="input" type="text" disabled="{{true}}" value="{{formData.serial}}" name="serial"></input>
+        </view>
+      </view>
+    </view>
+    <view class="page-section-btns">
+      <button type="primary" size="40" formType="submit">点我提交</button>
+    </view>
+  </form>
+  <form onSubmit="submitForm_equally" report-submit="true" receiverUserId="2088012612108379">
+    <view class="page-description">点击提交，发送示例模板消息</view>
+    <view class="page-section">
+      <view class="form-row">
+        <view class="page-section-title">购买地点</view>
+        <view class="page-section-demo">
+          <input class="input" type="text" disabled="{{true}}" value="{{formData.address}}" name="address"></input>
+        </view>
+      </view>
+      <view class="page-section-btns">
+        <button type="primary" size="40" formType="submit">自定义id为自己提交</button>
+      </view>
+    </form>
+    <form onSubmit="submitForm_User" report-submit="true" receiverUserId="2088622016464285">
+      <view class="page-description">点击提交，发送示例模板消息</view>
+      <view class="page-section">
+        <view class="form-row">
+          <view class="page-section-title">物品名称</view>
+          <view class="page-section-demo">
+            <input class="input" type="text" disabled="{{true}}" value="{{formData.name}}" name="name"></input>
+          </view>
+        </view>
+        <view class="page-section-btns">
+          <button type="primary" size="40" formType="submit">自定义userid提交</button>
+        </view>
+      </form>
+    </view>

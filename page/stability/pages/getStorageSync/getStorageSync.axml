@@ -1,0 +1,15 @@
+<view>
+  <view class="page-description">同步获取缓存数据</view>
+  <view class="page-section">
+    <view class="page-section-demo">
+      <button type="primary" onTap="setStorage">保存数据</button>
+      <button type="primary" onTap="getStorageSync">同步获取数据</button>
+      <button type="primary" onTap="getStorageSync_many">接口重复调用30次</button>
+      <button type="primary" onTap="getStorageSync_null">参数为null</button>
+      <button type="primary" onTap="getStorageSync_number">参数为数字</button>
+      <button type="primary" onTap="getStorageSync_array">参数为数组</button>   
+      <button type="primary" onTap="getStorageSync_symbol">参数为符号</button> 
+      <button type="primary" onTap="getStorageSync_bool">参数为布尔值</button>                                     
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-title">倾斜手机即可移动下方小球</view>
+    <view class="page-section-demo">
+      <view class="page-body-canvas">
+        <canvas class="page-body-ball" show="{{true}}" id="big-ball"></canvas>
+        <canvas class="page-body-ball" show="{{true}}" id="small-ball"></canvas>
+      </view>
+    </view>
+    <view class="page-section-btns">
+      <text class="page-body-title">X: {{x}}</text>
+      <text class="page-body-title">Y: {{y}}</text>
+      <text class="page-body-title">Z: {{z}}</text>
+    </view>
+  </view>
+</view>

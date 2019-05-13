@@ -1,0 +1,12 @@
+<view class="page">
+  <view class="page-description">警告框 API</view>
+  <view class="page-section">
+    <view class="page-section-title">my.alert</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="alert">显示警告框</button>
+      <button type="primary" onTap="prompt">prompt交互</button>
+      <button type="primary" onTap="prompt_null">prompt判空</button>
+       <button type="primary" onTap="prompt_number">prompt数字</button>
+    </view>
+  </view>
+</view>

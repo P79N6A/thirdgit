@@ -1,0 +1,3 @@
+<view class="page">
+  <web-view  app-id="20000180"  onMessage="onmessage"></web-view>
+</view>

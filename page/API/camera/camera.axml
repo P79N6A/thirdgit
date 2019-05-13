@@ -1,0 +1,41 @@
+<view class="page-body">
+  <view class="page-body-wrapper">
+    <!--<camera id="camera12" device-position="front" onError="error" onStop="stop" flash="auto"  style="width: 100%; height: 300px;"></camera>-->
+    <view class="btn-area">
+      <button type="primary" onTap="takePhotoDefault">默认quanlity拍照</button>
+    </view>
+    <view class="btn-area">
+      <button type="primary" onTap="takePhoto">拍照</button>
+    </view>
+    <camera id="camera11" device-position="back" onError="error" onStop="stop" flash="off"  style="width: 100%; height: 300px;"></camera>
+
+    <picker onChange="chooseRecordQuanlity"  value="{{recordQualityIndex}}" range="{{recordQualityArr}}" >
+        <view class="row">
+          <view class="row-title">拍照质量</view>
+          <view class="row-extra">当前选择：{{recordQuality}}</view>
+        </view>
+    </picker>
+
+    <view class="btn-area">
+      <button type="primary" onTap="startRecord">开始录像</button>
+    </view>
+    <view class="btn-area">
+      <button type="primary" onTap="stopRecord">结束录像</button>
+    </view>
+    <view class="btn-area">
+      <button type="primary" onTap="toNewPage">进入新页面</button>
+    </view>
+    <view class="preview-tips">预览</view>
+    <image a:if="{{url}}" mode="widthFix" src="{{url}}"></image>
+
+     <video 
+      src="{{videoSrc}}"
+      poster="{{poster}}" 
+      class="video" 
+      id="video"
+      enableNative="{{true}}"
+      >
+    </video>
+
+  </view>
+</view>

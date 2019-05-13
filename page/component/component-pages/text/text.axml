@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page-description">
+    <view class="text-demo-title">
+      <text id="aaT" style="color:red" class="test" onTap="tapname">这是一段文本。\n</text>
+        <text>\</text>
+        <text>n</text> 
+         <text>可以换行。</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="page-section-demo">
+      <text>{{text}}</text>
+    </view>
+  </view>
+</view>

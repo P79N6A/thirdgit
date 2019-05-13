@@ -1,0 +1,39 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-btns">
+      <view onTap="chooseImage">选择照片      
+      </view>
+      <view onTap="previewImage">预览照片      
+      </view>
+    </view>
+    <view class="page-section-btns">
+      <view onTap="saveImage">保存照片      
+      </view>
+      <view onTap="saveNoSheet">保存照片_不显示操作菜单      
+      </view>
+    </view>
+    <view class="page-section-btns">
+      <view onTap="saveInvalid">保存照片_参数无效      
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-btns">
+      <view onTap="compressImage">压缩照片      
+      </view>
+    </view>
+    <view class="page-section-btns">
+      <view onTap="compressImage_error">压缩照片_参数错误      
+      </view>
+      <view onTap="compressImage_null">压缩照片_参数为空      
+      </view>
+    </view>
+    <view class="page-section-btns">
+      <view onTap="compressImage_number">压缩照片_参数为数字      
+      </view>
+      <view onTap="compressImage_bool">压缩照片_参数为布尔值      
+      </view>
+    </view>
+  </view>
+  <image src="{{image}}" />
+</view>

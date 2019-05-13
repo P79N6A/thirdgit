@@ -1,0 +1,12 @@
+<view>
+  <view class="page-section">
+    <view class="page-section-title">隐藏Menu</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="hideAllDesktop">隐藏全部添加至桌面</button>
+      <button type="primary" onTap="hideDesktop">隐藏当前页添加至桌面</button>
+      <button type="primary" onTap="hideAllFavorite">隐藏全部收藏</button>
+      <button type="primary" onTap="hideFavorite">隐藏当前页收藏</button>   
+      <button type="primary" onTap="hideShareMenu">隐藏分享</button>
+    </view>
+  </view>
+</view>

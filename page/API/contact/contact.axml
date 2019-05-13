@@ -1,0 +1,26 @@
+<view class="page">
+  <view class="page-description">联系人 API</view>
+  <view class="page-section">
+    <view class="page-section-title">my.choosePhoneContact</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="choosePhoneContact">唤起本地通讯录</button>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">my.chooseAlipayContact</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="chooseAlipayContact">唤起支付宝通讯录</button>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">my.chooseContact</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="chooseContact">选择单个联系人_不包含自己_无手机通讯录联系人</button>
+      <button type="primary" onTap="chooseContact_multi">选择多个联系人_包含自己_双向通讯录联系人</button>
+      <button type="primary" onTap="chooseContact_false">包含手机通讯录联系人</button>
+       <button type="primary" onTap="chooseContact_null">联系人通讯录选择_参数为空</button>
+    </view>
+  </view>
+</view>
+
+

@@ -1,0 +1,10 @@
+<view>
+  <view class="page-section">
+    <view class="page-section-title">跳转支付运营活动</view>
+    <view class="page-section-btns">
+      <button type="primary" onTap="navigateToAlipayPage">打开小程序示例</button>
+      <button type="primary" onTap="navigateToAlipayPageone">打开aone</button>
+      <button type="primary" onTap="navigateToAlipayPagetwo">打开淘宝</button>
+    </view>
+  </view>
+</view>

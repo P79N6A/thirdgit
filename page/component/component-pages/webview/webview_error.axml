@@ -1,0 +1,3 @@
+<view class="page">
+  <web-view src="http://www.4399.com"></web-view>
+</view>

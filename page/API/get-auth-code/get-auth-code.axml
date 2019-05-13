@@ -1,0 +1,8 @@
+<view class="page">
+  <view class="page-section">
+    <button type="primary" onTap="getAuthCode">获取授权码_主动授权</button>
+    <button type="primary" onTap="baseGetAuthCode">获取授权码_静默授权</button>
+    <button type="primary" onTap="zhimaGetAuthCode">获取授权码_芝麻授权</button>
+    <button type="primary" onTap="errorGetAuthCode">获取授权码_错误类型</button>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<import src="/util/lifecycle.axml" />
+<import src="/util/grid/index.axml" />
+
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-demo">
+      <text>主要用来验证接口的判空、异常参数等健壮性
+      </text>
+    </view>
+  </view>
+</view>
+<view class="container">
+  <template is="grid" data="{{...arr}}" />
+</view>
+
+<template is="lifecycle" a:if="{{debug}}"/>

@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="page-description">升级支付宝最新客户端(10.1.32版本以后才支持该接口）</view>
+  <view class="page-section">
+    <view class="page-section-title">my.ap.updateAlipayClient()</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="updateAlipayClient1">点击进入升级页面</button>
+    </view>
+    <view class="page-section-title">my.call调用接口</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="updateAlipayClient2">my.call方式调用升级</button>
+    </view>
+  </view>
+</view>

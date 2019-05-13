@@ -1,0 +1,16 @@
+<import src="/util/lifecycle.axml" />
+<import src="/util/grid/index.axml" />
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-demo">
+      <text>页面展示、无参数返回类的API接口和组件，不能通过接口一键自动化实现的，均通过UI自动化来实现。
+        当前直接选取小程序demo做UI自动化的测试对象，通过调用demo上的接口来实现对这类接口的自动化。
+      </text>
+    </view>
+  </view>
+</view>
+<view class="container">
+  <template is="grid" data="{{...arr}}" />
+</view> 
+<template is="lifecycle" a:if="{{debug}}"/>
+<view>秉忠贞之志，守谦退之节。</view>

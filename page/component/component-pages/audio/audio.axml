@@ -1,0 +1,26 @@
+<view class="page">
+  <view class="page-description">音频</view>
+  <view class="page-section">
+    <view class="page-section-demo">
+      <audio
+        id="myAudio"
+        name="{{song.name}}"
+        author="{{song.author}}"
+        poster="{{song.poster}}"
+        src="{{song.src}}"
+        controls
+      />
+    </view>
+    <view class="page-section-btns">
+      <button size="mini" type="default" onTap="audioPlay">播放</button>
+      <button size="mini" type="default" onTap="audioPause">暂停</button>
+    </view>
+    <view class="page-section-btns">
+      <button size="mini" type="default" onTap="audioSeek">跳到 1分30秒</button>
+      <button size="mini" type="default" onTap="audioStart">回到开头</button>
+      <button size="mini" type="default" onTap="changeMusic">换首歌</button>
+    </view>
+  </view>
+
+
+</view>

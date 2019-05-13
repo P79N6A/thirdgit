@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-title">语音播放</view>
+    <view class="page-section-demo">
+       <button type="primary" onTap="startRecord">开始录音</button>
+       <button type="primary" onTap="stopRecord">结束录音</button>
+       <button type="primary" onTap="cancelRecord">取消录音</button>
+       <button type="primary" onTap="playVoice">开始播放</button>
+       <button type="primary" onTap="pauseVoice">暂停播放</button>
+       <button type="primary" onTap="resumeVoice">继续播放</button>
+       <button type="primary" onTap="stopVoice">停止播放</button>
+    </view>
+  </view>
+</view>
+

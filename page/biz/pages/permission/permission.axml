@@ -1,0 +1,6 @@
+<view>
+    <view class="page-section-title">自动化判断小程序权限开关</view>
+    <view class="page-section-demo">
+        <button type="primary" onTap="getapp">获取app类型</button>
+    </view>
+</view>

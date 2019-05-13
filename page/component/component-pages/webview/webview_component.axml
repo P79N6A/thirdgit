@@ -1,0 +1,28 @@
+<view class="page">
+   <image class="image"
+        src="https://zos.alipayobjects.com/rmsportal/FMJgKfQklkwdrwpxRKeD.jpg"
+         />
+      <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">输入密码</view>
+      <view class="form-row-content">
+        <input class="input" password type="text" placeholder="密码输入框" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">输入数字</view>
+      <view class="form-row-content">
+        <input class="input" type="number" maxlength="10" onInput="numberSetData" value="{{number}}" placeholder="数字输入框" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">小数点键盘</view>
+      <view class="form-row-content">
+        <input class="input" onInput="testSetData" value="{{value}}" type="digit" placeholder="带小数点的数字键盘" />
+      </view>
+    </view>
+    <web-view src="https://www.baidu.com/"></web-view>
+     <text>\大会上符合当时几乎都是科技发货速度加快回房间</text>
+</view>

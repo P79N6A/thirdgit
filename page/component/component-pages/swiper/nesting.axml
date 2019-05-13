@@ -1,0 +1,22 @@
+<view class="page-add-todo">
+  <view style="display:flex;margin-top:20px;height:60px;width:100%">
+    <block a:for="{{background}}">
+      <view key="{{index}}" style="flex:1;line-height:60px;text-align:center;font-size:24px;background-color:{{item}}" onTap="changeSwiper" data-index="{{index+1}}">          {{item}}        </view>
+    </block>
+  </view>
+  <swiper indicator-dots="{{false}}" class="outer" autoplay="{{false}}" duration="200" style="margin-top:20px;height:150px;width:100%" current="{{currentIndex}}">
+    <block a:for="{{background}}" a:for-index="indexOne" a:for-item="itemOne">
+      <swiper-item style="background-color:{{itemOne}}">
+        <view style="width:350px;">
+        <swiper indicator-dots="{{true}}" style="height:150px;background-color:purple">
+          <block a:for="{{urls[indexOne]}}" a:for-item="itemTwo" a:for-index="indexTwo">
+            <swiper-item>
+              <image src="{{itemTwo}}" style="height:150px;width:100%" />
+            </swiper-item>
+          </block>
+        </swiper>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

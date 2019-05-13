@@ -1,0 +1,10 @@
+<view>
+  <view class="page-section-title">会员卡开卡授权</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="addCardAuth">会员卡开卡授权</button>
+    <button type="primary" onTap="addCardAuth_null">会员卡开卡授权_参数为空</button>
+    <button type="primary" onTap="addCardAuth_number">会员卡开卡授权_参数为数字</button>
+    <button type="primary" onTap="addCardAuth_array">会员卡开卡授权_参数为数组</button>
+    <button type="primary" onTap="addCardAuth_bool">会员卡开卡授权_参数为布尔值</button>
+  </view>
+</view>

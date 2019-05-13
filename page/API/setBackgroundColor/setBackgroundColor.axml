@@ -1,0 +1,11 @@
+<view>
+  <view class="text-view">
+    <text>\n支持动态设置窗口背景色，设置完之后下拉或者上滑页面可以看到背景色效果</text>
+  </view>
+</view>
+<button type="primary" onTap="setBackgroundColor1">设置窗口背景色红色</button>
+<button type="primary" onTap="setBackgroundColor2">顶部窗口的背景色，仅 iOS 支持</button>
+<button type="primary" onTap="setBackgroundColor3">底部窗口的背景色，仅 iOS 支持</button>
+<button type="primary" onTap="setBackgroundColor4">设置窗口背景色参数null</button>
+<button type="primary" onTap="setBackgroundColor5">设置窗口背景色参数布尔</button>
+<button type="primary" onTap="setBackgroundColor6">设置窗口背景色参数为空</button>

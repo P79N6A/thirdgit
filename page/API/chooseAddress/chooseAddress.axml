@@ -1,0 +1,5 @@
+<view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="chooseAddress">选择收获地址接口</button>
+  </view>
+</view>

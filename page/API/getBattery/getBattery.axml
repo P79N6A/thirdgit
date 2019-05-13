@@ -1,0 +1,10 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-demo">
+  
+    <view class="page-section-btns">
+      <view onTap="getBatteryInfo">异步获取电量</view>
+      <view onTap="getBatteryInfoSync">同步获取手机电量信息</view>
+    </view>
+  </view>
+</view>

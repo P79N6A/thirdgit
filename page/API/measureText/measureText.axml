@@ -1,0 +1,9 @@
+<view>
+  <view class="page-section">
+    <view class="page-section-title">my.measureText</view>
+    <textarea placeholder="输入文本内容" onInput="handleInput" name="textarea"/>
+    <view class="page-section-btns">
+      <button type="primary" onTap="measureText">measureText</button>
+    </view>
+  </view>
+</view>

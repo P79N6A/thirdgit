@@ -1,0 +1,12 @@
+<view class="page">
+  <view class="page-section">
+    <button type="primary" onTap="navigateTo">跳转新页面</button>
+    <button type="primary" onTap="navigateBack">返回上一页</button>
+    <button type="primary" onTap="redirectTo">在当前页面打开 - 获取用户信息</button>
+    <button type="primary" onTap="switchTab">跳转 Tab - 接口稳定性</button>
+    <button type="primary" onTap="reLaunch">reLaunch跳转</button>
+    <button type="primary" onTap="reLaunch_null">reLaunch跳转_为空</button>
+    <button type="primary" onTap="reLaunch_array">reLaunch跳转_为数组</button>
+    <button type="primary" onTap="reLaunch_number">reLaunch跳转_为数字</button>
+  </view>
+</view>

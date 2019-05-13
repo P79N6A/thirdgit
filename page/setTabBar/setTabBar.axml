@@ -1,0 +1,18 @@
+<view>
+ 支持设置tabbar右上角文本、样式、显示和隐藏红点、动态设置tabBar整体样式、动态设置tabBar某一项内容、显示和隐藏（支持动画效果）tabBar。
+</view>
+<button  type="primary" onTap="setTabBarBadge">setTabBarBadge</button>       
+
+<button  type="primary" onTap="removeTabBarBadge">removeTabBarBadge</button>  
+
+<button  type="primary" onTap="showTabBarRedDot">showTabBarRedDot</button>  
+
+<button  type="primary" onTap="hideTabBarRedDot">hideTabBarRedDot</button> 
+
+<button  type="primary" onTap="setTabBarStyle">setTabBarStyle</button>  
+
+<button  type="primary" onTap="setTabBarItem">setTabBarItem</button>  
+
+<button  type="primary" onTap="showTabBar">showTabBar</button>  
+
+<button  type="primary" onTap="hideTabBar">hideTabBar</button>

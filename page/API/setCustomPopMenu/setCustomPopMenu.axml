@@ -1,0 +1,10 @@
+<view class="page">
+  <view class="page-description">右上角更多中，支持开发者插入菜单，定义菜单事件，针对appid白名单开放，走isp权限管控。jsapi定向开放
+，位置按顺序：  推荐、收藏、添加到桌面、{开发者自定义1-N}、关于</view>
+  <view class="page-section">
+    <view class="page-section-title">my.setCustomPopMenu</view>
+    <view class="page-section-demo">
+      <button type="primary" onTap="setCustomPopMenu">设置自定义菜单</button>
+          </view>
+  </view>
+</view>

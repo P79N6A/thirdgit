@@ -1,0 +1,8 @@
+<view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="openCarService">车主服务</button>
+    <button type="primary" onTap="openCarService_null">参数为空</button>
+    <button type="primary" onTap="openCarService_array">参数为数组</button>
+     <button type="primary" onTap="openCarService_number">参数为数字</button>
+  </view>
+</view>

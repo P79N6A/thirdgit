@@ -1,0 +1,57 @@
+<view class="page">
+  <view class="page-description">选择器</view>
+  <view class="page-section">
+    <picker onChange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="row">
+        <view class="row-title">地区选择器</view>
+        <view class="row-extra">当前选择：{{array[index]}}</view>
+        <image class="row-arrow" src="/image/arrowright.png" mode="aspectFill" />
+      </view>
+    </picker>
+  </view>
+
+  <view class="page-section">
+    <picker onChange="bindObjPickerChange" value="{{arrIndex}}" range="{{objectArray}}" range-key="name">
+      <view class="row">
+        <view class="row-title">ObjectArray</view>
+        <view class="row-extra">当前选择：{{objectArray[arrIndex].name}}</view>
+        <image class="row-arrow" src="/image/arrowright.png" mode="aspectFill" />
+      </view>
+    </picker>
+  </view>
+
+  <view class="page-section">
+    <picker mode="time" value="{{time}}" start="09:01" end="21:01" onChange="bindTimeChange">
+      <view class="row">
+        <view class="row-title">时间选择器</view>
+        <view class="row-extra">当前选择：{{time}}</view>
+        <image class="row-arrow" src="/image/arrowright.png" mode="aspectFill" />
+      </view>
+    </picker>
+  </view>
+
+  <view class="page-section">
+    <picker mode="date" value="{{date}}"
+      fields="{{fields}}"
+      start="2015-09-01" end="2017-09-01" onChange="bindDateChange">
+      <view class="row">
+        <view class="row-title">日期选择器</view>
+        <view class="row-extra">当前选择：{{date}}</view>
+        <image class="row-arrow" src="/image/arrowright.png" mode="aspectFill" />
+      </view>
+    </picker>
+    <view class="page-section-btns">
+      <radio-group onChange="onFieldsChange" class="date-radio">
+        <label>
+          <radio value="day" checked="{{fields === 'day'}}"/> day
+        </label>
+        <label>
+          <radio value="year" checked="{{fields === 'year'}}"/> year
+        </label>
+        <label>
+          <radio value="month" checked="{{fields === 'month'}}"/> month
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</view>

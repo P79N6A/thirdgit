@@ -1,0 +1,12 @@
+    <view class="btn-area">
+      <button type="primary" onTap="previewImageDefault1">previewImage EnableShowPhotoDownload默认</button>
+
+      <picker onChange="setEnableShowPhotoDownloadVal"  value="{{enableShowPhotoDownloadIndex}}" range="{{enableShowPhotoDownloadArr}}" >
+          <view class="row">
+            <view class="row-title">EnableShowPhotoDownload</view>
+            <view class="row-extra">当前选择：{{enableShowPhotoDownloadVal}}</view>
+          </view>
+      </picker>
+      <button type="primary" onTap="previewImage">previewImage</button>
+
+    </view>

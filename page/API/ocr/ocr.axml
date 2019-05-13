@@ -1,0 +1,24 @@
+</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="ocrNetworkUrl">ocr_网络路径</button>
+    <button type="primary" onTap="ocrap_face">ocr_身份证正面</button>
+    <button type="primary" onTap="ocrlocal">ocr_身份证反面</button>
+   
+    <button type="primary" onTap="ocr_general">ocr识别图片上文字</button>
+    <button type="primary" onTap="ocr_bank">ocr银行卡识别</button>
+    <button type="primary" onTap="ocr_train">ocr火车票识别</button>
+    <button type="primary" onTap="ocr_business_card">ocr名片识别</button>
+    <button type="primary" onTap="ocr_vehicle_plate">ocr车牌识别</button>
+
+    <button type="primary" onTap="ocr_driver">驾驶证识别</button>
+    <button type="primary" onTap="ocr_vehicle">行驶证识别</button>
+    <button type="primary" onTap="ocr_business">营业执照识别</button>
+    <button type="primary" onTap="ocr_passport">护照识别</button>
+    <button type="primary" onTap="ocr_vin">Vin识别</button>
+
+    <button type="primary" onTap="ocr_null">ocr参数为空</button>
+    <button type="primary" onTap="ocr_number">ocr参数为数字</button>
+    <button type="primary" onTap="ocr_array">ocr参数为数组</button>
+    <button type="primary" onTap="ocr_bool">ocr参数为布尔值</button>
+  </view>
+</view>

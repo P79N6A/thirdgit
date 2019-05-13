@@ -1,0 +1,29 @@
+.btn-area{
+  margin-top: 60rpx;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
+}
+
+.row {
+   height: 40px;
+   background: white;
+   margin:10px 20px 0 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0 0 0 12px;
+   justify-content: space-between
+}
+
+.row-extra {
+    width: 120px
+}
+
+
+.video-contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px
+}

@@ -1,0 +1,5 @@
+<view class="page">
+  <view class="page-description">点击右上角开始自定义分享</view>
+   <button type="primary" onTap="canuse">是否可用转发</button>
+    <button type="primary" onTap="clickShare" open-type="share">点击转发</button>
+</view>

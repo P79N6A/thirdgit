@@ -1,0 +1,7 @@
+<view>
+  <view class="page-section-title">iot接口</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="iotCreateService">创建服务</button>
+    <button type="primary" onTap="iotCheckService">Check服务</button>
+  </view>
+</view>

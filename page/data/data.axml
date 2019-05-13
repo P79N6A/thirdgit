@@ -1,0 +1,7 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-demo">
+      <text>用于对埋点接口和埋点数据正确性的验证</text>
+    </view>
+  </view>
+</view>

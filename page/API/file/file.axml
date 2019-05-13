@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <view class="page-body-info">
+        <view class="page-section-title">保存文件</view>
+        <view class="page-section-demo">
+          <button type="primary" onTap="saveFile">保存图片</button>
+          <button type="primary" onTap="saveFile_Record">保存录音</button>
+          <button type="primary" onTap="saveFile_video">保存视频</button>
+          <button type="primary" onTap="saveFile_Null">保存文件_参数为空</button>
+          <button type="primary" onTap="saveFile_Error">保存文件_参数错误</button>
+          <button type="primary" onTap="getSavedFileList">获取已保存的文件列表</button>
+          <button type="primary" onTap="getSavedFileInfo">获取存储文件信息</button>
+          <button type="primary" onTap="getSavedFileInfo_number">获取存储文件_参数数字</button>
+          <button type="primary" onTap="getSavedFileInfo_error">获取存储文件_参数错误</button>
+          <button type="primary" onTap="removeSavedFile">删除本地存储的文件</button>
+        </view>
+        <view class="page-section-title">获取图片文件信息</view>
+        <view class="page-section-demo">
+          <button type="primary" onTap="getImageInfo">获取图片信息</button>
+          <button type="primary" onTap="getImageInfo_local">获取本地图片信息</button>
+          <button type="primary" onTap="getImageInfo_network">获取网络信息</button>
+          <button type="primary" onTap="getImageInfo_null">参数为空</button>
+          <button type="primary" onTap="getImageInfo_error">参数错误</button>
+          <button type="primary" onTap="getImageInfo_number">参数为数字</button>
+        </view>
+        <view class="page-section-title">获取文件信息</view>
+        <view class="page-section-demo">
+          <button type="primary" onTap="getFileInfo">获取图片文件信息</button>
+          <button type="primary" onTap="getFileInfo_video">获取视频文件信息</button>
+          <button type="primary" onTap="getFileInfo_Record">获取音频文件信息</button>
+          <button type="primary" onTap="getFileInfo_local">获取本地路径文件信息</button>
+          <button type="primary" onTap="getFileInfo_null">参数为空</button>
+          <button type="primary" onTap="getFileInfo_error">参数为错误</button>
+          <button type="primary" onTap="getFileInfo_number">参数为数字</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

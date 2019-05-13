@@ -1,0 +1,8 @@
+<view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="openChatWindow">打开聊天窗口界面接口</button>
+     <button type="primary" onTap="openChatWindow_number">uid为数字</button>
+      <button type="primary" onTap="openChatWindow_null">uid为空</button>
+       <button type="primary" onTap="openChatWindow_array">uid为数组</button>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<view class="page">
+  <view class="page-description">设备方向</view>
+  <view class="page-section">
+    <view class="page-section-demo">
+       <text>停止监听设备方向变化</text>
+       <button type="primary" onTap="offDeviceMotionChange">offDeviceMotionChange</button>
+
+
+     <text>监听设备方向变化事件</text>
+    <button type="primary" onTap="onDeviceMotionChange">onDeviceMotionChange</button>
+       
+    <text>my.call调用stop</text>
+    <button type="primary" onTap="stopDeviceMotionListening">stopDeviceMotionListening</button>
+
+        <text>my.call调用start开始监听设备方向变化（不发送数据）</text>
+    <button type="primary" onTap="startDeviceMotionListening">startDeviceMotionListening</button>
+    </view>
+    <view class="text-view">
+      <text style="word-break:break-all;">{{result}}</text>
+    </view>
+  </view> 
+</view>

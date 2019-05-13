@@ -1,0 +1,174 @@
+<view class="page">
+  <view class="page-description">输入框</view>
+  <view class="page-section">
+    <view class="form-row">
+      <view class="form-row-label">受控聚焦</view>
+      <view class="form-row-content">
+        <input class="input" id="first" style="extra-info" onInput="first" focus="{{focus}}" placeholder-style="color:red" onFocus="onFocus" onBlur="onBlur" placeholder="input something" />
+      </view>
+    </view>
+    <view class="page-section-btns">
+      <button size="mini" onTap="bindButtonTap">聚焦</button>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="form-row">
+      <view class="form-row-label">显示输入</view>
+      <view class="form-row-content">
+        <input class="input" onInput="bindKeyInput" placeholder="show input content" />
+      </view>
+    </view>
+    <view class="extra-info">你输入的是：{{inputValue}}</view>
+  </view>
+  <view class="page-section">
+    <view class="form-row">
+      <view class="form-row-label">最大长度</view>
+      <view class="form-row-content">
+        <input class="input" maxlength="10" placeholder="maxlength 10" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">收起键盘</view>
+      <view class="form-row-content">
+        <input class="input" type="idcard" onInput="bindHideKeyboard" placeholder="输入 123 自动收起键盘" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">输入密码</view>
+      <view class="form-row-content">
+        <input class="input" password type="text" placeholder="密码输入框" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">输入数字</view>
+      <view class="form-row-content">
+        <input class="input" type="number" placeholder="数字输入框" onConfirm="Confirm" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">小数点键盘</view>
+      <view class="form-row-content">
+        <input class="input" type="digit" placeholder="带小数点的数字键盘" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">身份证键盘</view>
+      <view class="form-row-content">
+        <input class="input" type="idcard" placeholder="身份证输入键盘" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">搜索框</view>
+    <view class="page-section-demo">
+      <view class="search-outer">
+        <input class="search-input" placeholder="搜索" value="{{search}}" onConfirm="doneSearch" onInput="handleSearch" />
+        <text class="search-cancel" onTap="clearSearch">取消</text>
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="form-row">
+      <view class="form-row-label">输入框disable</view>
+      <view class="form-row-content">
+        <input class="input" onInput="bindKeyInput" placeholder="show input content" disabled="{{true}}"/>
+      </view>
+    </view>
+  </view>
+  <view class="form-line" />
+  <view class="form-row">
+    <view>输入内容溢出验证</view>
+    <view>
+      <input class="test" onFocus="onFocus2" onBlur="onBlur2" style="{{ width: width }}" sync-input="{{true}}"/>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="form-line" />
+    <view class="form-row">
+      <view >数字键盘随机排列</view>
+      <view class="form-row-content">
+        <input class="input" type="number" random-number placeholder="数字输入框" onConfirm="Confirm" />
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view>小数点随机排列</view>
+      <view class="form-row-content">
+        <input class="input" type="digit" random-number placeholder="带小数点的数字键盘" onConfirm="Confirm"/>
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view >身份证键盘随机排列</view>
+      <view class="form-row-content">
+        <input class="input" type="idcard" random-number placeholder="身份证输入键盘" onConfirm="Confirm"/>
+      </view>
+    </view>
+  </view>
+  <view class="page-description">设置键盘右下角按钮的文字</view>
+  <view class="page-section">
+    <view class="form-row">
+      <view class="form-row-label">显示‘前往’</view>
+      <view class="form-row-content">
+        <input class="input" type="text" confirm-type="go" placeholder="显示‘前往’"/>
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">显示‘完成’</view>
+      <view class="form-row-content">
+        <input class="input" type="text" confirm-type="done" placeholder="显示‘完成’"/>
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">显示‘下一项’</view>
+      <view class="form-row-content">
+        <input class="input" type="text" confirm-type="next" placeholder="显示‘下一个’"/>
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">显示‘搜索’</view>
+      <view class="form-row-content">
+        <input class="input" type="text" confirm-type="search" placeholder="显示‘搜索’"/>
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">显示‘发送’</view>
+      <view class="form-row-content">
+        <input class="input" type="text" confirm-type="send" placeholder="显示‘发送’"/>
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view class="form-row-label">键盘不收起</view>
+      <view class="form-row-content">
+        <input class="input" type="text" confirm-hold= "{{true}}" confirm-type="send" placeholder="点击右下角按钮时是否键盘不收起"/>
+      </view>
+    </view>
+  </view>
+  <view class="page-description">设置光标位置和选中文本</view>
+  <view class="page-section">
+    <view class="form-line" />
+    <view class="form-row">
+      <view >获取光标时，光标位置为5</view>
+      <view class="form-row-content">
+        <input class="input" type="text" cursor=5  value="123456789"/>
+      </view>
+    </view>
+    <view class="form-line" />
+    <view class="form-row">
+      <view>获取光标时，选中文本为4-8</view>
+      <view class="form-row-content">
+        <input class="input" type="text" selection-start=3 selection-end=8 value="123456789" />
+      </view>
+    </view>
+  </view>
+</view>

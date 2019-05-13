@@ -1,0 +1,24 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-title">my.httpRequest</view>
+    <view class="page-section-btns">
+      <view onTap="requestHttp">发起请求_Http</view>
+    </view>
+     <view class="page-section-btns">
+      <view onTap="requestHttps">发起请求_Https</view>
+    </view>
+    <view class="page-section-btns">
+      <view onTap="request_getHttp">获取数据_GetHttp</view>
+    </view>
+     <view class="page-section-btns">
+      <view onTap="request_getHttps">请求数据_GetHttps</view>
+    </view>
+    <view class="page-section-btns">
+      <view onTap="request_urlerror">发起请求_url错误</view>
+    </view>
+    <view class="page-section-btns">
+      <view onTap="request_timeout">发起请求_超时</view>
+    </view>
+    
+  </view>
+</view>

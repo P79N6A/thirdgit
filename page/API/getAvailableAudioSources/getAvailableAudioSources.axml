@@ -1,0 +1,4 @@
+
+<view class="btn-area">
+  <button type="primary" onTap="getAvailableAudioSources">getAvailableAudioSources</button>
+</view>

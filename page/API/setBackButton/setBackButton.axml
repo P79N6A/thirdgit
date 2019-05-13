@@ -1,0 +1,10 @@
+ <view class="page">
+  <view class="text-view">
+    <text>设置返回按钮颜色</text>
+  </view>
+</view>
+<button type="primary" onTap="setback1"  >设置返回按钮红色</button>
+<button type="primary" onTap="setback2"  >设置返回按钮蓝色</button>
+<button type="primary" onTap="setback3"  >设置返回按钮值为空</button>
+<button type="primary" onTap="setback4"  >设置返回按钮参数null</button>
+<button type="primary" onTap="setback4"  >设置返回按钮参数布尔</button>

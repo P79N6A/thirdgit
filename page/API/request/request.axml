@@ -1,0 +1,54 @@
+<button type="primary" onTap="request1">request-请求正常
+</button>
+<button type="primary" onTap="request2">url为空
+</button>
+<button type="primary" onTap="request3">url为数字
+</button>
+<button type="primary" onTap="request4">url为null
+</button>
+<button type="primary" onTap="request5">url为数组
+</button>
+<button type="primary" onTap="request6">method小写
+</button>
+<button type="primary" onTap="request7">method为空
+</button>
+<button type="primary" onTap="request8">method为null
+</button>
+<button type="primary" onTap="request9">method为数字
+</button>
+<button type="primary" onTap="request10">method为数组
+</button>
+<button type="primary" onTap="request11">header为空
+</button>
+<button type="primary" onTap="request12">header为数字
+</button>
+<button type="primary" onTap="request13">header为null
+</button>
+<button type="primary" onTap="request14">method为get
+</button>
+<button type="primary" onTap="request15">method为head
+</button>
+<button type="primary" onTap="request16">method为put
+</button>
+<button type="primary" onTap="request17">method为delete
+</button>
+<button type="primary" onTap="request18">method为trace
+</button>
+<button type="primary" onTap="request19">method为connect
+</button>
+<button type="primary" onTap="request20">data为数组
+</button>
+<button type="primary" onTap="request21">data为数字
+</button>
+<button type="primary" onTap="request22">data为null
+</button>
+<button type="primary" onTap="request23">data为空
+</button>
+<button type="primary" onTap="request24">dataType为json
+</button>
+<button type="primary" onTap="request25">responseType为arrayBuffer
+</button>
+<button type="primary" onTap="request26">application/x-www-form-urlencoded
+</button>
+<button type="primary" onTap="request27">abort
+</button>

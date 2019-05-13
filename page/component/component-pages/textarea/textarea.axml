@@ -1,0 +1,65 @@
+<view class="page">
+  <view class="page-description">文本框</view>
+  <view class="page-section">
+    <view class="page-section-title">受控聚焦</view>
+    <view class="page-section-demo">
+      <textarea name="test1" focus="{{focus}}" show-confirm-bar="{{false}}" onInput="oninput" show-count="{{false}}" cursor=5 cursor-spacing=10 onConfirm="onconfirm" onFocus="onFocus" onBlur="onBlur" placeholder="Please input something" onLinechange="onlinechange" value='默认文字'/>
+    </view>
+    <view class="page-section-btns">
+      <button type="default" size="mini" onTap="bindButtonTap">聚焦</button>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">自适应高度</view>
+    <view class="page-section-demo">
+      <textarea placeholder-style="color:red" placeholder-class="test" auto-height="{{true}}" placeholder="Please input something" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">自动聚焦</view>
+    <view class="page-section-demo">
+      <textarea onBlur="bindTextAreaBlur" adjust-position="{{false}}" focus="{{false}}" auto-height="{{false}}" maxlength="20" placeholder="Please input something" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">结合表单</view>
+    <form onSubmit="bindFormSubmit">
+      <view class="page-section-demo">
+        <textarea name="textarea"placeholder="Please input something" />
+      </view>
+      <view class="page-section-btns">
+        <button form-type="submit" onConfirm="bindFormSubmit" size="mini" type="primary">提交</button>
+      </view>
+    </form>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">限制输入长度为20</view>
+    <view class="page-section-demo">
+      <textarea onBlur="bindTextAreaBlur" auto-height="{{false}}" maxlength="20" placeholder="Please input something" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">禁用组件</view>
+    <view class="page-section-demo">
+      <textarea onBlur="bindTextAreaBlur" auto-height="{{true}}" disabled="{{true}}" placeholder="Please input something" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">设置光标与键盘的距离,键盘不显示完成</view>
+    <view class="page-section-demo">
+      <textarea onBlur="bindTextAreaBlur" show-confirm-bar="{{false}}" cursor-spacing=50 placeholder="Please input something" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">弹起键盘时是否上推页面,默认选中6-16</view>
+    <view class="page-section-demo">
+      <textarea onBlur="bindTextAreaBlur" selection-start=6 selection-end=16 auto-height="{{true}}" placeholder="Please input something" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-title">安卓native</view>
+    <view class="page-section-demo">
+      <textarea maxlength="50" data-keyboard="text" placeholder="textarea11" auto-height="{{true}}" cursor-spacing=50 adjust-position="{{true}}" show-confirm-bar="{{true}}" data-kbel-id="1"></textarea>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view>
+  <view class="page-section-title">蚂蚁安全能力输出</view>
+  <view class="page-section-demo">
+    <textarea placeholder="输入文本内容" onInput="handleInput" name="textarea"/>
+    <button type="primary" onTap="textRiskIdentification">开始识别</button>
+</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="textRiskIdentification_alipay">安全能力</button>
+    <button type="primary" onTap="textRiskIdentification_00">安全能力_参数涉政</button>
+    <button type="primary" onTap="textRiskIdentification_22">安全能力_参数涉黄</button>
+    <button type="primary" onTap="textRiskIdentification_null">安全能力_参数为空</button>
+    <button type="primary" onTap="textRiskIdentification_number">安全能力_参数为数字</button>
+    <button type="primary" onTap="textRiskIdentification_array">安全能力_参数为数组</button>
+    <button type="primary" onTap="textRiskIdentification_bool">安全能力_参数为布尔值</button>
+  </view>
+</view>

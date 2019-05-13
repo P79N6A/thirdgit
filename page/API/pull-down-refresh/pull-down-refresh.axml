@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page-section">
+    <view  style="color:red" class="page-section-title">点击设置样式之后再下滑页面即可刷新</view>
+    <view>
+      <view class="text-view">
+        <text>动态设置下拉背景字体、loading图的样式</text>
+      </view>
+    </view>
+    <button type="primary" onTap="onPullDownRefresh1">textStyle为dark</button>
+    <button type="primary" onTap="onPullDownRefresh2">textStyle为light</button>
+    <view class="page-section-btns">
+      <view type="primary" onTap="stopPullDownRefresh">停止刷新</view>
+    </view>
+  </view>
+</view>

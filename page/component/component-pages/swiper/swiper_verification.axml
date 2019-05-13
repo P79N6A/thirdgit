@@ -1,0 +1,20 @@
+<view>
+      <swiper
+        class="demo-swiper"
+        indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}"
+        vertical="{{vertical}}"
+        interval="{{interval}}"
+        circular="{{circular}}"
+      >
+        <block a:for="{{background}}">
+          <swiper-item key="swiper-item-{{index}}">
+            <view class="swiper-item bc_{{item}}">
+              <view style="height: 150px;"></view>
+              <view style="height: 30px;">测试——{{item}}</view>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+      <button onTap="changeInterval">change interval</button>
+</view>

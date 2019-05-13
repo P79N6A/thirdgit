@@ -1,0 +1,14 @@
+<view>
+  <view class="page-section-title">下载</view>
+  <view class="page-section-demo">
+    <button  type="primary" onTap="download">下载图片并显示</button>
+    <button  type="primary" onTap="downloadError">下载图片_url错误</button>
+    <button  type="primary" onTap="downloadone">下载并上传</button>
+    <button  type="primary" onTap="downloadtwo">下载zip</button>
+    <button  type="primary" onTap="downloadthree">下载gif</button>
+    <button  type="primary" onTap="downloadfour">下载apk</button>
+    <button  type="primary" onTap="downloadfive">下载pdf</button>
+    <button  type="primary" onTap="downloadsix">下载txt</button>
+    <button  type="primary" onTap="downloadFileAbort">下载任务暂停</button>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<view class="page">
+  <button type="primary" onTap="vibrate">
+    点击震动手机
+  </button>
+  <button type="primary" onTap="vibrateLong">
+    vibrateLong长时间震动 (400ms)
+   </button>
+  <button type="primary" onTap="vibrateShort">
+    vibrateShort短时间震动 (40ms)
+  </button>
+</view>

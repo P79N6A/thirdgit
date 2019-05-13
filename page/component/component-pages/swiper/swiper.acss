@@ -1,0 +1,10 @@
+.swiper-item{
+  display: block;
+  height: 150px;
+  width: 300px;
+  margin:0 10px 0 10px;
+}
+
+.margin-t {
+  margin-top: 24px;
+}

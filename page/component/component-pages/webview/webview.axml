@@ -1,0 +1,29 @@
+<view class="page">
+  <view class="page-description">web-view嵌入的域url检查</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="baidu">打开百度https</button>
+    <button type="primary" onTap="NetEase">打开网易http</button>
+    <button type="primary" onTap="contraband">打开违禁页面</button>
+    <button type="primary" onTap="photo_contraband">页面包含违禁图片</button>
+    <button type="primary" onTap="custom">打开拼接链接</button>
+    <button type="primary" onTap="custom_file">打开file地址</button>
+    <button type="primary" onTap="webview_error">打开未加白名单地址</button>
+	<button type="primary" onTap="webview_appid">打开离线包appid</button>
+  </view>
+
+   <view class="page-description">不同的url类型</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="custom_null">参数为空</button>
+    <button type="primary" onTap="custom_nuber">参数为占位符</button>
+  </view>
+
+   <view class="page-description">场景类型验证</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="webview_more">多个web-view嵌入一个页面</button>
+    <button type="primary" onTap="webview_component">有web-view，还有其他控件</button>
+    <button type="primary" onTap="webview_iframe">iframe页面</button> 
+    <button type="primary" onTap="webview_navigator">打开前onload跳转</button>
+    <button type="primary" onTap="openH5">打开外跳H5页面</button>
+    <button type="primary" onTap="webview_jsapi">webview中权限验证</button>
+  </view>
+</view>

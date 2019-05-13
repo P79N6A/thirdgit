@@ -1,0 +1,39 @@
+<view class="page">
+  <view class="page-section">
+    <form onSubmit="scanCode">
+      <view>
+        <text> 无actiontype ，无needpath ；3个参数通过  </text>
+        <button type="primary" onTap="scana">扫码</button>
+        <text> actiontype不填 ，无needpath ；3个参数通过  </text>
+        <button type="primary" onTap="scanb">扫码</button>
+        <text> actiontype:null ，无needpath ；3个参数通过 </text>
+        <button type="primary" onTap="scanx">扫码</button>
+        <text> actiontype：乱七八糟 ，无needpath ;3个参数通过 </text>
+        <button type="primary" onTap="scanD">扫码</button>
+        <text> actiontype：scan，无needpath ；3个参数通过  </text>
+        <button type="primary" onTap="scane">扫码</button>
+        <text> actiontype：scanAndrpc，无needpath ；5个参数通过  </text>
+        <button type="primary" onTap="scanf">扫码</button>
+        <text> 无actiontype ，needpath：false；3个参数通过 </text>
+        <button type="primary" onTap="scang">扫码</button>
+        <text> 无actiontype ，needpath：true；5个参数通过 </text>
+        <button type="primary" onTap="scanh">扫码</button>
+        <text> 无actiontype ，needpath乱七八糟；3个参数通过 </text>
+        <button type="primary" onTap="scani">扫码</button>
+        <text> 无actiontype ，needpath:不填；3个参数通过 </text>
+        <button type="primary" onTap="scanj">扫码</button>
+        <text> 无actiontype ，needpath:null；3个参数通过 </text>
+        <button type="primary" onTap="scank">扫码</button>
+        <text> actiontype：scanAndrpc，needpath:false；5个参数通过 </text>
+        <button type="primary" onTap="scanl">扫码</button>
+        <text> actiontype：scanAndrpc，needpath:true；5个参数通过 </text>
+        <button type="primary" onTap="scanm">扫码</button>
+        <text> actiontype：scan，needpath:true；3个参数通过 </text>
+        <button type="primary" onTap="scann">扫码</button>
+        <text> actiontype：scan，needpath:false；3个参数通过 </text>
+        <button type="primary" onTap="scano">扫码</button>
+        <button type="primary" onTap="ARScan">AR扫码</button>
+      </view>
+    </form>
+  </view>
+</view>

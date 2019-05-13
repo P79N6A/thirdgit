@@ -1,0 +1,34 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-demo">
+      <button type="primary" onTap="onNetworkStatusChange">监听网络变化</button>
+      <view type="primary" class="page-body-title">一、手机切换网络——监听网络变化状态</view>
+      <view type="primary" class="page-body-title">1、手机切换成4G网络</view>
+      <view type="primary" class="page-body-title">2、手机切换成3G网络</view>
+      <view type="primary" class="page-body-title">3、手机切换成2G网络</view>
+      <view type="primary" class="page-body-title">4、手机切换成WiFi网络</view>
+      <view type="primary" class="page-body-title">5、手机切换成无网状态</view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="page-section-demo">
+      <view class="page-body-title">二、当前网络状态</view>
+      <block a:if="{{hasNetworkType === false}}">
+        <text class="page-body-text">未获取</text>
+        <text class="page-body-text">点击按钮可获取网络状态</text>
+      </block>
+      <block a:if="{{hasNetworkType === true}}">
+        <text class="page-body-text-network-type">{{networkType}}</text>
+      </block>
+    </view>
+
+    <view class="page-section-btns">
+      <view onTap="getNetworkType">获取手机网络状态</view>
+      <view onTap="clear">清空</view>
+    </view>
+  <view class="page-section-btns">
+      <view onTap="getWifiInfo">获取网络信息</view>
+    </view>
+   
+  </view>
+</view>

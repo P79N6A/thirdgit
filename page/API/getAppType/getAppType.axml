@@ -1,0 +1,12 @@
+<view>
+ <view class="page-section-title">获取app类型</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="getapp">获取app类型</button>
+    <button type="primary" onTap="getsmall_routine">获取小程序app</button>
+    <button type="primary" onTap="getType_null">获取小程序app参数为空</button>
+  </view>
+  <view class="page-section-title">startApp（注：开启权限）</view>
+  <view class="page-section-demo">
+    <button type="primary" onTap="startApp">startApp打开淘票票</button>
+  </view>
+</view>
